@@ -71,7 +71,31 @@
           },
           {
             description: 'ipsum',
-            recipeValue: 8,
+            recipeValue: 20,
+            result: '',
+            index: 1
+          },
+          {
+            description: 'dolor',
+            recipeValue: 30,
+            result: '',
+            index: 1
+          },
+          {
+            description: 'sit',
+            recipeValue: 40,
+            result: '',
+            index: 1
+          },
+          {
+            description: 'consectetur',
+            recipeValue: 50,
+            result: '',
+            index: 1
+          },
+          {
+            description: 'elit',
+            recipeValue: 60,
             result: '',
             index: 1
           }
@@ -93,8 +117,8 @@
           return this.k;
         },
         calculateAll: function(){
-          for(let row in this.rows){
-            alert(row.recipeValue);
+          for(let row of this.rows){
+            row.recipeValue
           }
         }
       }
